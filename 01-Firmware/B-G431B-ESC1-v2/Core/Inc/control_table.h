@@ -173,14 +173,14 @@ extern "C" {
 
 #define REG_TEMPERATURE_LIMIT_VALUE		 	70		// °C
 #define REG_LOW_VOLTAGE_LIMIT_VALUE		 	10		// V
-#define REG_HIGH_VOLTAGE_LIMIT_VALUE		28		// V
+#define REG_HIGH_VOLTAGE_LIMIT_VALUE		30		// V
 
 #define REG_MOVING_THRESHOLD_DPS_VALUE		5		// dps
 #define REG_STATUS_RETURN_LVL_VALUE			0		// TODO : fill comment
 #define REG_ALARM_LED_VALUE					0		// TODO : fill comment
 #define REG_ALARM_SHUTDOWN_VALUE			0		// TODO : fill comment
 
-#define REG_ENCODER_BITS_VALUE				14		//
+#define REG_ENCODER_BITS_VALUE				12		//
 #define REG_MOTOR_POLE_PAIRS_VALUE			14		//
 #define REG_MOTOR_SYNCHRO_VALUE				0		// deg
 #define REG_INV_PHASE_VALUE					0		// 0: NORMAL 1: INV
