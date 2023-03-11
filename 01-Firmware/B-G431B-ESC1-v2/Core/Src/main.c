@@ -49,7 +49,7 @@
 // Position sensor type :
 //    "AS5600_I2C"
 //    "AS5048A_PWM"
-#define SENSOR_TYPE AS5048A_PWM
+#define SENSOR_TYPE AS5600_I2C
 
 // PID loop period in µs
 //  normal setting is 1000us (1KHz)
